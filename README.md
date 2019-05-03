@@ -1,4 +1,6 @@
-# thermo-monitor-dashboard
+thermo-monitor-dashboard
+===
+A webapp for monitoring Room temperature based on vue.js and firebase, chart.js
 
 ## Project setup
 ```

@@ -10,10 +10,13 @@
   },
   "rules": {
     "quotemark": [true, "single"],
+    "no-console": false,
     "indent": [true, "spaces", 2],
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
+    "max-classes-per-file": [true, 3],
     "no-consecutive-blank-lines": false
   }
 }

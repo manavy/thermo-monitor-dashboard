@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".write": "auth.uid === 'collector'",
+    "latest": {
+      ".read": true
+    },
+    "sensor_log": {
+      ".read": true,
+      ".indexOn": [
+        "created_at"
+      ]
+    }
+  }
+}
